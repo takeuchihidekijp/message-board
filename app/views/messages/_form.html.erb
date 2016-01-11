@@ -11,26 +11,31 @@
       </ul>
     </div>
   <% end %>
-   <div class="col-sm-4">
-   名前
+  <form class="form-horizontal">
+  <div class="form-group">
+   <label for="name1" class="col-sm-2 control-label">名前</label>
+   <div class="col-sm-10">
    <%= f.text_field :name, :class => "form-control", :size => "1x1" %>
    </div>
-   <div class="col-sm-8">
    </div>
    <br>
+   <div class="form-group">
+   <label for="input_about1" class="col-sm-2 control-label">内容</label>
    <div class="col-sm-10">
-   内容
    <%= f.text_area :body, :class => "form-control", :size => "5x10"  %>
-   <div class="col-sm-2">
+   </div>
    </div>
    <br>
-   <div class="col-sm-2">
-   年齢
+   <div class="form-group">
+   <label for="input_age1" class="col-sm-2 control-label">年齢</label>
+   <div class="col-sm-10">
    <%= f.text_field :age, :class => "form-control", :size => "1x1"  %>
    </div>
-   <div class="col-sm-10">
    </div>
    <br>
    <br>
+  <div class="form-group">
   <%= f.submit class: "btn btn-primary btn-lg btn-block" %>
+  </div>
+  </form>
  <% end %>
