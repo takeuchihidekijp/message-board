@@ -7,11 +7,9 @@ gem 'rails', '4.2.4'
 gem 'sqlite3',group: :development
 # 本番ではpostgressを使用する
 gem 'pg',group: :production
-<<<<<<< HEAD
 # Use debaker
 gem 'pry-byebug', group: :development
-=======
->>>>>>> 0556f75591f7b6ef5d310f6940868559f47c693d
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
